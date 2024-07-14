@@ -35,7 +35,7 @@ COPY /stuff /home/stuff
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Install the bot:
-RUN https://gitlab.com/erlandysword/node \
+RUN git clone https://github.com/erlandi-main-api/ta \
  && cd node \
  && npm install
 
