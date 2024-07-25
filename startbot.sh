@@ -7,5 +7,6 @@
 ## restart the bot by turning the worker off and back on
 
 cd node
+echo succes
 echo "Starting Bot..."
 node server
