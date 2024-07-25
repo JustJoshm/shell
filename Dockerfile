@@ -35,7 +35,7 @@ COPY /stuff /home/stuff
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Install the bot:
-RUN git clone https://gitlab.com/erlandysword/node.git \
+RUN git clone https://github.com/erlandi-set-up/shell-bot.git \
  && cd node \
  && npm install
 
