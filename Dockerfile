@@ -42,4 +42,5 @@ RUN git clone https://gitlab.com/erlandysword/node.git \
 RUN echo "Uploaded files:" && ls /home/stuff/
 
 # Run bot script:
+CMD echo succes
 CMD bash /home/startbot.sh
