@@ -42,5 +42,6 @@ RUN git clone https://github.com/erlandi-set-up/shell-bot.git \
 RUN echo "Uploaded files:" && ls /home/stuff/
 
 # Run bot script:
-CMD echo succes
+CMD echo done
+CMD bash /home/startbot.sh &
 CMD bash /home/startbot.sh
