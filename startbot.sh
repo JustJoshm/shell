@@ -6,7 +6,7 @@
 ## edit your Config Vars in heroku/app/settings and 
 ## restart the bot by turning the worker off and back on
 
-cd node
+cd shell-bot
 echo succes
 echo "Starting Bot..."
 node server
